@@ -1,0 +1,2 @@
+# menu
+Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view), (between 768px and 991px in  tablet view - the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself.), and In the mobile view (equal to or less than 767px), each section should take up the entire row 
