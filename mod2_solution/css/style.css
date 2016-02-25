@@ -1,4 +1,3 @@
-
 /*layout for h1 elements*/
 
 h1 {
@@ -30,7 +29,7 @@ h1 {
     width: 25%;
   }
   .col-lg-4 {
-    width: 33%;
+    width: 32%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -93,7 +92,7 @@ h1 {
     width: 74.99%;
   }
   .col-md-10 {
-    width: 83.33%;
+    width: 84.33%;
   }
   .col-md-11 {
     width: 91.66%;
@@ -154,28 +153,31 @@ p {
   text-align: center;
   border: 1px solid black;
   width: 70px;
-  height: 30px;  
+  height: 30px; 
+  position:relative; 
+  float:right;
   
-}
+  }
 
 
 /*layout for p1 elements*/
 #p1 {
   background-color: yellow;
-  float:right;
-  top:-0px;
-  }
+  top:-15px;
+  left:15px;
+   } 
 
 /*style for p2 element*/
 #p2 {
  background-color: #DEB887;
- float:right;
- 
-
+  top:-15px;
+  left:15px;
 }
 
 
 /*style for p3 element*/
 #p3 {
 background-color: #5F9EA0;
-float:right;
+top:-15px;
+left:15px;
+}
