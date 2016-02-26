@@ -151,33 +151,42 @@ h1 {
 /*layout for p elements*/
 p {
   text-align: center;
-  border: 1px solid black;
-  width: 70px;
-  height: 30px; 
+  border: 1px solid black; 
+  font-weight: bold;  
+  width: 120px;
+  height: 30px;
   position:relative; 
-  float:right;
-  
-  }
+  float:right;  
+  font-size:100%;
+  padding-top: 5px;
+    }
 
 
 /*layout for p1 elements*/
-#p1 {
-  background-color: yellow;
-  top:-15px;
-  left:15px;
+#p1 {  
+  background-color:#DEB887;
+  top:-16px;
+  left:16px;
    } 
 
 /*style for p2 element*/
 #p2 {
- background-color: #DEB887;
-  top:-15px;
-  left:15px;
+ background-color:#5F9EA0;
+ color:white;
+ top:-16px;
+ left:16px;
 }
 
 
 /*style for p3 element*/
 #p3 {
-background-color: #5F9EA0;
-top:-15px;
-left:15px;
+background-color:red ;
+top:-16px;
+left:16px;
+}
+
+/*style for section element*/
+section {
+  font-weight: bold;  
+  font-size:75%;  
 }
