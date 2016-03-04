@@ -1,0 +1,68 @@
+body {
+  font-size: 20px;
+  color:#fff;
+  background-color:#9B111E;
+  font-family: 'Roboto', sans-serif;  
+}
+
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #2F4F4F;
+  border-radius: 0px 91px 0px 91px;
+  border:2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 15px;  
+}
+
+/*Name Of Brand- FOOD LLC */
+.navbar-brand h1 { 
+  font-family: 'Roboto', sans-serif;
+  color:  #FAFAD2;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:.70;  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {   /*List of Items on Header*/
+  margin-top: 15px;
+}
+#nav-list a {   /*nav list items chicken, beef, sushi*/
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {   /*style when user hovers on nav list*/
+  background: #9B111E;  
+  border-radius: 11px 0px 11px 0px;
+  border: 1px solid black;
+}
+
+/*End of Header*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  }
